@@ -32,9 +32,9 @@ Before diving into VSCode, ensure that you have Java installed and properly conf
    }
 ```
 
-1. Right-click inside the file editor and choose "Run Java." You should see the output "Hello, World!" in the terminal.
+Right-click inside the file editor and choose "Run Java." You should see the output "Hello, World!" in the terminal.
 
-Conclusion
+## Conclusion
 
 Congratulations! You've now set up your VSCode for Java development. As you explore Java, consider diving into VSCode's plethora of extensions that cater to various Java development needs, from frameworks to databases.
 

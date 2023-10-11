@@ -1,41 +1,49 @@
 # Java Development Environment Setup with VSCode
 
-Visual Studio Code (VSCode) is a lightweight and versatile code editor developed by Microsoft. Though it's not an Integrated Development Environment (IDE) in the traditional sense, it can be configured to offer IDE-like functionalities for Java with the help of extensions. This guide will walk you through setting up Java with VSCode for a seamless development experience.
+Setting up a robust development environment is essential for a productive coding experience. This guide will outline the steps for getting started with Java development in Visual Studio Code (VSCode).
 
 ## Installing Java
 
-Before diving into VSCode, ensure that you have Java installed and properly configured on your machine.
+1. Navigate to the [official Java download page](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html) and select the appropriate version for your OS.
 
-1. Visit the [official Java download page](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html) and download the appropriate version for your OS.
-2. Install the downloaded Java Development Kit (JDK).
-3. Set up the `JAVA_HOME` environment variable pointing to the JDK installation directory.
+   ![Java Installer Placeholder](../Images/VS/VS_In_1.png)
+
+2. Follow the installation steps for the downloaded Java Development Kit (JDK).
+
+   ![Java Installation Steps Placeholder](../Images/VS/VS_In_2.png)
+
+3. Once installed, ensure that the `JAVA_HOME` environment variable points to the JDK installation directory.
 
 ## Configuring VSCode for Java Development
 
-1. If you haven't already, [download and install VSCode](https://code.visualstudio.com/).
-2. Open VSCode and head to the Extensions view by clicking on the square icon on the sidebar or pressing `Ctrl+Shift+X`.
-3. Search for the `Java Extension Pack` by Microsoft. This pack bundles essential Java extensions, including Language Support, Debugger, and Test Runner.
-4. Install the `Java Extension Pack`.
-5. After installation, open a `.java` file, and VSCode will automatically recognize and configure the Java environment.
-6. (Optional) For building projects, you might want to install the Maven for Java or Gradle for Java extensions, depending on your build tool preference.
+1. If not installed already, [download and install VSCode](https://code.visualstudio.com/).
 
-## Verify Your Setup
+   ![VSCode Installer Placeholder](../Images/VS/VS_In_3.png)
 
-1. Create a new file with a `.java` extension, for instance, `HelloWorld.java`.
-2. Add the following code:
+2. Launch VSCode and access the Extensions view by clicking on the square icon in the sidebar or pressing `Ctrl+Shift+X`.
+3. Search and install the `Java Extension Pack` by Microsoft, which bundles essential Java extensions like Language Support, Debugger, and Test Runner.
 
+   ![VSCode Java Extension Placeholder](../Images/VS/VS_In_4.png)
+
+4. With the extension installed, you're all set to start writing Java in VSCode!
+
+## Verifying Your Setup
+
+1. In VSCode, create a new file with the `.java` extension, for instance, `HelloWorld.java`.
+2. Populate the file with a simple Java program.
    ```java
-   public class HelloWorld {
+   class HelloWorld {
        public static void main(String[] args) {
            System.out.println("Hello, World!");
        }
    }
    ```
+4. Use the built-in features of the Java Extension Pack to run the program and ensure everything works smoothly.
 
-Right-click inside the file editor and choose "Run Java." You should see the output "Hello, World!" in the terminal.
+   ![Running Java in VSCode Placeholder](../Images/VS/VS_In_5.png)
 
-## Conclusion
+## Wrapping Up
 
-Congratulations! You've now set up your VSCode for Java development. As you explore Java, consider diving into VSCode's plethora of extensions that cater to various Java development needs, from frameworks to databases.
+You've now successfully set up your VSCode environment for Java development! As you advance in your Java journey, consider exploring additional VSCode extensions that can further enhance your development experience.
 
 [⬅️ Back to Table of Contents](../README.md)

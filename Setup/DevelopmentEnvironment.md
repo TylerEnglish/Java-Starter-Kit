@@ -30,7 +30,7 @@ Before diving into VSCode, ensure that you have Java installed and properly conf
            System.out.println("Hello, World!");
        }
    }
-```
+   ```
 
 Right-click inside the file editor and choose "Run Java." You should see the output "Hello, World!" in the terminal.
 

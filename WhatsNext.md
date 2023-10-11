@@ -14,7 +14,6 @@ Congratulations on reaching this point in your Java learning path! With a strong
 2. **Hibernate:** Object-Relational Mapping (ORM) library to interact with databases.
 3. **JavaFX:** For creating rich desktop applications.
 4. **Apache Kafka:** A distributed streaming platform often used with Java applications.
-5. ... (other frameworks)
 
 ## Specialized Domains
 

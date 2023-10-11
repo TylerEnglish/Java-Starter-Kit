@@ -137,4 +137,4 @@ class RegularClass {
 
 Classes and objects form the core of Java's object-oriented paradigm. Understanding these concepts is pivotal for designing and developing efficient Java applications.
 
-[⬅️ Previous: Methods](./Methods.md) | [🔝 Back to Table of Contents](../README.md) | [➡️ Next: OOP Concepts](./OOPConcepts.md)
+[⬅️ Previous: Methods](../Basics/Methods.md) | [🔝 Back to Table of Contents](../README.md) | [➡️ Next: OOP Concepts](./OOPConcepts.md)
